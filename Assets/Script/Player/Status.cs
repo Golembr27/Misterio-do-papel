@@ -32,7 +32,7 @@ public class Status : MonoBehaviour
     public float velocidadeMaxima = 25f;
     public float velocidadeAtual;
     //VIDA NATURAL(VIDA RAÇA)
-    public float vidaRegeneracao;
+    public float vidaRegeneracao = 0.1f;
     public float vidaMaxima = 100f;
     public float vidaAtual;
     //MANA NATURAL(MANA RAÇA)
@@ -57,7 +57,7 @@ public class Status : MonoBehaviour
     public float defesaPele;
     //FORÇA NATURAL(FOR DA RAÇA)
     public float forcaMaxima;
-    public float forcaAtual;
+    public float forcaAtual = 10f;
     //******************************
 
     //VIDA DO CORPO COMO PARTE SEPARADA

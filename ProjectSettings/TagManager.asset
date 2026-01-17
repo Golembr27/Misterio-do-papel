@@ -6,6 +6,7 @@ TagManager:
   tags:
   - player
   - item
+  - inimigo
   layers:
   - Default
   - TransparentFX

@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c702c158d023634d9934d39a3ce1f62, type: 3}
+  m_Name: pocaoDeVida
+  m_EditorClassIdentifier: Assembly-CSharp::Item
+  tag: 5
+  nome: pocaoDeVida
+  prefabDoItem: {fileID: 7807331500684503552, guid: 788b5c6abdbe3364bb24ab008c8bb9be, type: 3}
