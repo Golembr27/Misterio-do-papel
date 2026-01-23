@@ -40,6 +40,8 @@ public class BarraDeXp : MonoBehaviour
     {//Mathf.RoundToInt(xpAtual).ToString() É para mostra só números inteiros
         tmXpAtul.text = ($"{Mathf.RoundToInt(xpAtual).ToString()}/{xpMaxima}");
         tmNivelAtual.text = ($"{nivelAtual}");
+        slider.maxValue = xpMaxima;
+        slider.value = xpAtual;
     }
 
     public void MudarDeNivel()
@@ -50,7 +52,7 @@ public class BarraDeXp : MonoBehaviour
             xpAtual = 0;
             xpMaxima += 10f;
             slider.value = 0;
-            slider.maxValue = xpMaxima;
+            //slider.maxValue = xpMaxima;
             MudaTexto();
         }
     }

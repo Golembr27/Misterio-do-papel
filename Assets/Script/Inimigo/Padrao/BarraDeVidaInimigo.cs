@@ -80,10 +80,11 @@ public class BarraDeVidaInimigo : MonoBehaviour
 
     private void MortePlayer()
     {
-        if (vidaAtual <= 0)
+        if (vidaAtual <= 0 && Status.Instance.xpAtual <= Status.Instance.xpMaximo)
         {
             Status.Instance.xpAtual += xpInimigo;
             BarraDeXp.Instance.MudaTexto();
+            Status.Instance.AtualizarXpDoPlayer();
             inimigo.SetActive(false);
         }
     }

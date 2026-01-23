@@ -91,4 +91,10 @@ public class Status : MonoBehaviour
         velocidadeAtual = BarraDeStamina.Instance.velocidadeAtual;
         Movmentacao.Instance.velocidadeAtual = velocidadeAtual;
     }
+
+    public void AtualizarXpDoPlayer()
+    {
+        BarraDeXp.Instance.xpAtual = xpAtual;
+        BarraDeXp.Instance.MudaTexto();
+    }
 }
