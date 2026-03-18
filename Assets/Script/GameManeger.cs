@@ -15,6 +15,5 @@ public class GameManeger : MonoBehaviour
                 StatusInimigo.Instance.inimigoPrefab = prefabInimigos[i];
             }
         }
-        
     }
 }

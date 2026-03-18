@@ -19,19 +19,19 @@ public class Inventario : MonoBehaviour
     [SerializeField] bool podeAtivarOMenu = false;
 
     [SerializeField] private GameObject slotAtual;
-    public int slotNum = 0;
-    public int listNum = 0;
+    [SerializeField] private int slotNum = 0;
+    [SerializeField] private int listNum = 0;
     public string nomeDoItem = "";
     private Transform buscaSlot;
     private GameObject spawnItem;
     [SerializeField] GameObject[] listaPrefab;
     [SerializeField] Transform[] listaTransformSlot;
 
-    public Transform invetarioTransform;
+    [SerializeField] private Transform invetarioTransform;
 
-    public List<string> listaDeItems = new List<string>();
+    [SerializeField] private List<string> listaDeItems = new List<string>();
 
-    Canvas canvas;
+    [SerializeField] private Canvas canvas;
 
     private void Start()
     {

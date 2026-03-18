@@ -85,7 +85,7 @@ public class BarraDeVidaInimigo : MonoBehaviour
             Status.Instance.xpAtual += xpInimigo;
             BarraDeXp.Instance.MudaTexto();
             Status.Instance.AtualizarXpDoPlayer();
-            inimigo.SetActive(false);
+            Destroy(gameObject);
         }
     }
 

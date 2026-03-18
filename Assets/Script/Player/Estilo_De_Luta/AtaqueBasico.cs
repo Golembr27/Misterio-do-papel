@@ -47,7 +47,7 @@ public class AtaqueBasico : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision != null & collision.CompareTag("inimigo"))
+        if (collision != null & collision.CompareTag("inimigo") && ataqueArea.CompareTag("ataque"))
         {
             nomeDoInmigo = collision.name;
             BarraDeVidaInimigo barraDeVidaInimigo = collision.gameObject.GetComponent<BarraDeVidaInimigo>();

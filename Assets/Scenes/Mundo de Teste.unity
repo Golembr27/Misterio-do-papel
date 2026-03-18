@@ -4201,6 +4201,7 @@ MonoBehaviour:
   - {fileID: 365260886}
   invetarioTransform: {fileID: 365260885}
   listaDeItems: []
+  canvas: {fileID: 669313230}
 --- !u!114 &1004172160
 MonoBehaviour:
   m_ObjectHideFlags: 0
